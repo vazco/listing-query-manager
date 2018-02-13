@@ -1,3 +1,6 @@
+## Abandonware
+
+
 # Listing Query Manager
 This utility allows you to handle repetitive tasks related to fetching data for listing: state management, url parsing, validation. It keeps state in url, and transforms it to two additional formats:
 
