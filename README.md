@@ -1,7 +1,15 @@
-## Abandonware
+<h1 align="center">
+    <a href="https://github.com/vazco">vazco</a>/Listing Query Manager
+</h1>
 
+&nbsp;
 
-# Listing Query Manager
+<h3 align="center">
+  -- Abandonware. This package is deprecated! --
+</h3>
+
+&nbsp;
+
 This utility allows you to handle repetitive tasks related to fetching data for listing: state management, url parsing, validation. It keeps state in url, and transforms it to two additional formats:
 
 1. Url - pretty and customizable formating
@@ -35,7 +43,7 @@ e.g.
     // }
 ```
 
-# Usage
+### Usage
 ```javascript
 import {QueryManager} from 'listing-query-manager';
 
@@ -93,7 +101,7 @@ ItemsQuery.setFilter({
 
 ```
 
-# API
+### API
 ```javascript
 // long form
 Listing.define({
@@ -115,3 +123,9 @@ Listing.define({
     }
 });
 ```
+
+### License
+
+<img src="https://vazco.eu/banner.png" align="right">
+
+**Like every package maintained by [Vazco](https://vazco.eu/), Listing Query Manager is [MIT licensed](https://github.com/vazco/uniforms/blob/master/LICENSE).**
